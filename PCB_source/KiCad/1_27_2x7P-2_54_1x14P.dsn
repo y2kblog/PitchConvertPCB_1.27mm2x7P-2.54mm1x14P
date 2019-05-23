@@ -1,0 +1,211 @@
+(pcb "C:\ws\KiCad\Pitch_Convert\1_27_2x7P-2_54_1x14P\latest\1_27_2x7P-2_54_1x14P\1_27_2x7P-2_54_1x14P.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.0.0)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  60000 -150000  50000 -150000  50000 -114440  60000 -114440
+            60000 -150000)
+    )
+    (keepout "" (polygon F.Cu 0  57000 -145000  57000 -150000  50000 -150000  50000 -143000
+            55000 -143000  57000 -145000))
+    (keepout "" (polygon B.Cu 0  57000 -145000  57000 -150000  50000 -150000  50000 -143000
+            55000 -143000  57000 -145000))
+    (keepout "" (polygon F.Cu 0  50000 -121500  55000 -121500  57000 -119500  57000 -114500
+            50000 -114500  50000 -121500))
+    (keepout "" (polygon B.Cu 0  50000 -121500  55000 -121500  57000 -119500  57000 -114500
+            50000 -114500  50000 -121500))
+    (via "Via[0-1]_1000:500_um")
+    (rule
+      (width 304.8)
+      (clearance 203.3)
+      (clearance 203.3 (type default_smd))
+      (clearance 50.8 (type smd_smd))
+    )
+  )
+  (placement
+    (component "user:USER_SIL-14_NoSilk"
+      (place J2 58730 -132220 front 270 (PN 2.54_1x14P))
+    )
+    (component user:USER_DILhalf_7X2_NoSilk
+      (place J1 52500 -132250 front 0 (PN 1.27_2x7P))
+    )
+    (component Mounting_Holes:MountingHole_3.2mm_M3
+      (place MH1 53500 -117940 front 0 (PN MountingHole))
+    )
+    (component Mounting_Holes:MountingHole_3.2mm_M3::1
+      (place MH2 53500 -146500 front 0 (PN MountingHole))
+    )
+  )
+  (library
+    (image "user:USER_SIL-14_NoSilk"
+      (outline (path signal 304.8  17780 -1270  -17780 -1270))
+      (outline (path signal 304.8  17780 1270  17780 -1270))
+      (outline (path signal 304.8  -17780 1270  17780 1270))
+      (outline (path signal 304.8  -17780 -1270  -17780 1270))
+      (pin Round[A]Pad_1600_um 10 6350 0)
+      (pin Round[A]Pad_1600_um 9 3810 0)
+      (pin Round[A]Pad_1600_um 8 1270 0)
+      (pin Round[A]Pad_1600_um 1 -16510 0)
+      (pin Round[A]Pad_1600_um 7 -1270 0)
+      (pin Round[A]Pad_1600_um 6 -3810 0)
+      (pin Round[A]Pad_1600_um 5 -6350 0)
+      (pin Round[A]Pad_1600_um 4 -8890 0)
+      (pin Round[A]Pad_1600_um 3 -11430 0)
+      (pin Round[A]Pad_1600_um 2 -13970 0)
+      (pin Round[A]Pad_1600_um 11 8890 0)
+      (pin Round[A]Pad_1600_um 12 11430 0)
+      (pin Round[A]Pad_1600_um 13 13970 0)
+      (pin Round[A]Pad_1600_um 14 16510 0)
+    )
+    (image user:USER_DILhalf_7X2_NoSilk
+      (outline (path signal 150  2500 -7545  2500 7545))
+      (outline (path signal 150  2500 7545  -2500 7545))
+      (outline (path signal 150  -2500 7545  -2500 -7545))
+      (outline (path signal 150  -2500 -7545  2500 -7545))
+      (outline (path signal 100  -1270 4445  1270 4445))
+      (outline (path signal 100  -1270 -4445  -1270 4445))
+      (outline (path signal 100  1270 -4445  -1270 -4445))
+      (outline (path signal 100  1270 4445  1270 -4445))
+      (pin Round[A]Pad_1000_um 10 635 -1270)
+      (pin Round[A]Pad_1000_um 9 -635 -1270)
+      (pin Round[A]Pad_1000_um 8 635 0)
+      (pin Round[A]Pad_1000_um 7 -635 0)
+      (pin Round[A]Pad_1000_um 6 635 1270)
+      (pin Round[A]Pad_1000_um 5 -635 1270)
+      (pin Round[A]Pad_1000_um 4 635 2540)
+      (pin Round[A]Pad_1000_um 3 -635 2540)
+      (pin Round[A]Pad_1000_um 2 635 3810)
+      (pin Round[A]Pad_1000_um 1 -635 3810)
+      (pin Round[A]Pad_1000_um 11 -635 -2540)
+      (pin Round[A]Pad_1000_um 12 635 -2540)
+      (pin Round[A]Pad_1000_um 13 -635 -3810)
+      (pin Round[A]Pad_1000_um 14 635 -3810)
+    )
+    (image Mounting_Holes:MountingHole_3.2mm_M3
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (image Mounting_Holes:MountingHole_3.2mm_M3::1
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (keepout "" (circle F.Cu 3200))
+      (keepout "" (circle B.Cu 3200))
+    )
+    (padstack Round[A]Pad_1000_um
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_1000:500_um"
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
+      (attach off)
+    )
+  )
+  (network
+    (net /1
+      (pins J2-1 J1-1)
+    )
+    (net /2
+      (pins J2-2 J1-2)
+    )
+    (net /3
+      (pins J2-3 J1-3)
+    )
+    (net /4
+      (pins J2-4 J1-4)
+    )
+    (net /5
+      (pins J2-5 J1-5)
+    )
+    (net /6
+      (pins J2-6 J1-6)
+    )
+    (net /7
+      (pins J2-7 J1-7)
+    )
+    (net /8
+      (pins J2-8 J1-8)
+    )
+    (net /9
+      (pins J2-9 J1-9)
+    )
+    (net /10
+      (pins J2-10 J1-10)
+    )
+    (net /14
+      (pins J2-14 J1-14)
+    )
+    (net /13
+      (pins J2-13 J1-13)
+    )
+    (net /12
+      (pins J2-12 J1-12)
+    )
+    (net /11
+      (pins J2-11 J1-11)
+    )
+    (class kicad_default "" /1 /10 /11 /12 /13 /14 /2 /3 /4 /5 /6 /7 /8 /9
+      (circuit
+        (use_via Via[0-1]_1000:500_um)
+      )
+      (rule
+        (width 304.8)
+        (clearance 203.3)
+      )
+    )
+  )
+  (wiring
+  )
+)
