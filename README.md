@@ -26,4 +26,4 @@
 <img src="/images/dimension.png" width="150px">
 
 ## License
-MIT License, see LICENSE.txt.
+MIT License, see `/LICENSE`.
